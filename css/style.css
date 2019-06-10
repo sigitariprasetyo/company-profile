@@ -4,6 +4,33 @@ nav .brand-logo .logo {
     height: 55px;
 }
 
+.parallax-container {
+    height: 10%;
+}
+
+.parallax img {
+    filter: grayscale(0.7);
+    opacity: 0.8 !important;
+}
+
+.services .container {
+    margin-top: -27px;
+}
+
+.clients img {
+    max-width: 170px;
+}
+
+footer {
+    margin-top: -20px;
+    height: 40px;
+}
+
+.footer p {
+    font-size: 14px;
+    padding: 10px 0;
+}
+
 @media (min-width: 992px) {
     nav .brand-logo .logo {
         display: inline-block;
