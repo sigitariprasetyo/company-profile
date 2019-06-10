@@ -1,0 +1,52 @@
+nav .brand-logo .logo {
+    display: inline-block;
+    width: 50px;
+    height: 55px;
+}
+
+@media (min-width: 992px) {
+    nav .brand-logo .logo {
+        display: inline-block;
+        width: 50px;
+        height: 64px;
+    }
+
+
+    .slider h3,
+    .slider h5,
+    .clients h3 {
+        text-shadow: 1px 1px 3px rgb(0, 0, 0, 0.5);
+    }
+
+    .parallax-container {
+        height: 15%;
+    }
+
+    .parallax img {
+        filter: grayscale(0.7);
+        opacity: 0.8 !important;
+    }
+
+    .clients img {
+        max-width: 225px;
+    }
+
+    section {
+        padding: 20px 0;
+    }
+
+    .card-panel .icon {
+        width: 80px;
+        height: 65px;
+    }
+
+    footer {
+        padding: 1px;
+        height: 64px;
+    }
+
+    .footer p {
+        font-size: 16px;
+        padding: 5px 0;
+    }
+}
